@@ -31,19 +31,19 @@ For those that prefer reading the PDF version of the book (e.g. for highlighting
 
 Instructions for MacOS.
 
-### 1. Install dependencies
+### 1. Clone this repo
 
-- Node.js (`brew install node`)
-- Honkit (`npm install honkit`)
-- [Calibre](https://calibre-ebook.com)
+### 2. Install dependencies
+
+- Node.js 
+- Honkit 
+- `ebook-convert` from [Calibre](https://calibre-ebook.com)
 
 Example:
 ```
 brew install node
 npm install honkit
 ```
-
-### 2. Clone this repo
 
 ### 3. Create symbolic link for `ebook-convert`
 
