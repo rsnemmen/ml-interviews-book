@@ -9,7 +9,7 @@
   ],
   "dependencies": {
     "gitbook-plugin-ga": "^2.0.0",
-    "gitbook-plugin-mathjax": "git+https://github.com/algorithm-archivists/plugin-mathjax.git"
+    "mathjax": "^3.2.2"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
     "build": "honkit build",
     "serve": "honkit serve"
   },
-  "homepage": "https://huyenchip.com/ml-interviews-book/"
+  "homepage": "https://huyenchip.com/ml-interviews-book/",
+  "devDependencies": {
+    "ga": "^0.0.2",
+    "gitbook-plugin-mathjax": "^2.0.0"
+  }
 }
