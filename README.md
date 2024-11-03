@@ -22,5 +22,22 @@ After you've finished this book, you might want to checkout [the 30 open-ended q
 
 This book is not a replacement to machine learning textbooks nor a shortcut to game the interviews. It’s a tool to consolidate your existing theoretical and practical knowledge in machine learning. The questions in this book can also help identify your blind/weak spots. Each topic is accompanied by resources that should help you strengthen your understanding of that topic.
 
+## Convert to PDF
+
+Instructions for MacOS.
+
+### 1. Install Calibre
+
+### 2. Create symbolic link for `ebook-convert`
+
+In order to make it globally accessible. 
+
+    sudo ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin/ebook-convert
+
+### 3. Generate PDF
+
+	cd ml-interviews-book
+    npx honkit pdf ./ ./book.pdf
+
 ---
 *This book was created by [Chip Huyen](https://huyenchip.com) with the help of wonderful friends. For feedback, errata, and suggestions, the author can be reached [here](https://huyenchip.com/communication/). Copyright ©2021 Chip Huyen.*
